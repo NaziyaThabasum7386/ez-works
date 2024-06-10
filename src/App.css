@@ -1,38 +1,180 @@
-.App {
-  text-align: center;
+.ez-works-container {
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  position: absolute;
+  width: 40%;
+  height: 70%;
+  top: 13%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.logo {
+  position: absolute;
+  width: 20%;
+  height: 40%;
+  left: 4.5%;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.title {
+  position: absolute;
+  width: 251px;
+  height: 37px;
+  top: 15%;
+  left: 26%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 36.77px;
+  text-align: left;
+  color: #37c3e2;
+}
+
+.Suite {
+  position: absolute;
+  width: 851px;
+  height: 37px;
+  top: 39%;
+  left: 4.5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 36.77px;
+  text-align: left;
+}
+
+.description {
+  position: absolute;
+  width: 96%;
+  height: 107px;
+  top: 59%;
+  left: 4.5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  font-weight: 50px;
+  line-height: 36.77px;
+  text-align: left;
+}
+
+.email-form {
+  position: absolute;
+  width: 87.5%;
+  display: flex;
+  top: 86%;
+  left: 4.5%;
+  margin-bottom: 20px;
+}
+
+.email-form input {
+  flex: 1;
+  height: 35px;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  color: #dbdbdb;
+  border: 1px solid #999494;
+  box-shadow: #999494;
+  border-radius: 5px;
+}
+
+.email-form button {
+  padding: 10px 20px;
+  font-size: 16px;
   color: white;
+  background-color: #ff7300;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+
+.services {
+  position: absolute; /* Change this to relative to contain absolute positioned children */
+  width: 53.5%;
+  height: 60%;
+  top: 21%;
+  left: 44.3%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  position: absolute;
+  background-color: #082b47;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  font-family: Arial, sans-serif;
+}
+
+.card1 {
+  top: 0;
+  left: 0;
+}
+
+.card2 {
+  top: 0;
+  left: 33%;
+}
+
+.card3 {
+  top: 0;
+  left: 66%;
+}
+
+.card4 {
+  top: 53%;
+  left: 0;
+}
+
+.card5 {
+  top: 53%;
+  left: 33%;
+}
+
+.card6 {
+  top: 53%;
+  left: 66%;
+}
+
+.icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.heading5,
+.heading6 {
+  position: absolute;
+  width: 55%;
+  height: 21%;
+  color: #37c3e2;
+  margin: 0 0 10px;
+  font-size: 1.2em;
+  top: 11%;
+  left: 35%;
+}
+
+.content {
+  font-size: 18px;
+  margin: 9.9% 2% 2% 2%;
+  text-align: left;
 }
