@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="ez-works-container">
       <EZWorks />
-      
       <Services />
     </div>
   );
